@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//configuration/configuration.json=UTF-8
+encoding//src/com/acme/quick/upper/application/UpperApplication.java=UTF-8
+encoding//static/com.acme.quick.upper/favicon.ico=UTF-8
+encoding//static/com.acme.quick.upper/index.html=UTF-8
+encoding//static/com.acme.quick.upper/main/htm/about.htm=UTF-8
+encoding//static/com.acme.quick.upper/main/htm/home.htm=UTF-8
+encoding//test/.gitignore=UTF-8
+encoding//web/main.js=UTF-8
+encoding//web/style.css=UTF-8
+encoding/bnd.bnd=UTF-8
+encoding/com.acme.quick.upper.bndrun=UTF-8
+encoding/debug.bndrun=UTF-8
+encoding/readme.md=UTF-8

@@ -1,0 +1,30 @@
+#
+#  com.acme.quick.upper.application APPLICATION
+#
+
+Bundle-Version: 1.0.0.${tstamp}
+Bundle-Description: This is the UpperApplication bundle for the OSGi enRoute Quick Start Tutorial.
+
+Private-Package:  \
+	com.acme.quick.upper.application
+
+EnRoute-Application: 	com.acme.quick.upper.application
+
+-includeresource: \
+	{readme.md}, \
+	{configuration=configuration}, \
+	{static=static}, \
+	web=web
+
+-buildpath: \
+	osgi.enroute.base.api;version=2.1
+
+-testpath: \
+	osgi.enroute.junit.wrapper;version=4.12
+Bundle-Name: String Manipulator
+Bundle-Category: Tools
+Bundle-Copyright: 1971
+Bundle-License: None
+Bundle-Vendor: Future Skies
+Bundle-ContactAddress: 1333 Campus Parkway, Wall, NJ 03357
+Bundle-DocURL: https://google.com
