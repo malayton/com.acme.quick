@@ -10,8 +10,9 @@ JPM-Command:				runUpper
 
 -runfw:						org.eclipse.osgi
 
--runrequires:  \
-	osgi.identity;filter:='(osgi.identity=com.acme.quick.upper.application)'
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=com.acme.quick.upper.application)',\
+	osgi.identity;filter:='(osgi.identity=com.acme.quick.upper.provider)'
 
 -runbundles: \
 	com.acme.quick.upper.application;version=snapshot,\
@@ -32,4 +33,5 @@ JPM-Command:				runUpper
 	osgi.enroute.logger.simple.provider;version='[2.1.0,2.1.1)',\
 	osgi.enroute.rest.simple.provider;version='[2.1.0,2.1.1)',\
 	osgi.enroute.twitter.bootstrap.webresource;version='[3.3.5,3.3.6)',\
-	osgi.enroute.web.simple.provider;version='[2.1.0,2.1.1)'
+	osgi.enroute.web.simple.provider;version='[2.1.0,2.1.1)',\
+	com.acme.quick.upper.provider;version=snapshot

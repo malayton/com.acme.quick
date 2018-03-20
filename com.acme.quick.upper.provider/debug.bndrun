@@ -1,0 +1,13 @@
+#
+# com.acme.quick.upper.provider DEBUG LAUNCH SPECFICATION 
+#
+
+-include: ~com.acme.quick.upper.provider.bndrun
+
+-runrequires.debug:  \
+	${debug-bundles}
+
+-runtrace: true
+
+-runbundles: \
+	${error;Resolve first}
